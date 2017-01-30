@@ -35,6 +35,7 @@ class TicTacToe {
     }
 
     getFieldValue(rowIndex, colIndex) {
+        return this.matrix[rowIndex][colIndex];
 
     }
 }
